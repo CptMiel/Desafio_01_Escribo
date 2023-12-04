@@ -16,6 +16,24 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.boxResultado {
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #fff;
+    margin: auto;
+    overflow: auto;
+    max-height: 400px;
+    max-width: 500px;
+}
 
 h1 {
     color: #333;

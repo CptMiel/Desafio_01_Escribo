@@ -1,7 +1,16 @@
+var numInput = document.getElementById("numInput");
+numInput.addEventListener("change", function numMax(){;
+if (numInput.value >= 999999){
+    alert('Por favor, insira um número menor');
+    numInput.value = "";
+}
+});
+console.log(numInput);
+
 function somatorioDivisiveis3ou5(n) {
     var somatorio = 0;
     var numerosSomados = [];
-
+    
     for (var i = 1; i < n; i++) {
         if (i % 3 === 0 || i % 5 === 0) {
             somatorio += i;
