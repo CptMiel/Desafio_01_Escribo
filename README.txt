@@ -4,6 +4,6 @@ Este projeto realiza o somatório de todos os valores inteiros divisíveis por 3
 
 # Como usar:
 
-Baixe os a pasta dos arquivos e click no arquivo index.html
+Baixe os arquivos e click no arquivo index.html
 
-ou vá para o site 
+ou vá para o site: https://desafio01escribodaniel.netlify.app/
