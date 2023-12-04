@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somatório Divisíveis por 3 ou 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Somatório Divisíveis por 3 ou 5</h1>
+        <form id="sumForm">
+            <label for="numInput">Insira um número:</label>
+            <input type="number" id="numInput" required>
+            <button type="button" onclick="calcularSomatorio()">Calcular</button>
+        </form>
+        <p>O somatório dos números divisíveis por 3 ou 5 menores que <span id="userNum"></span> é: <code id="result"></code></p>
+        <p>Números somados: <code><span id="numerosSomados"></span></code></p>
+    </div>
+    <script src="somatorio.js"></script>
+</body>
+</html>
